@@ -6,6 +6,9 @@ function Home() {
     return (
         <ul>
             <li>
+                <Link to="/">Home</Link>
+            </li>
+            <li>
                 <Link to="/bad-headers">Bad Headers</Link>
             </li>
             <li>

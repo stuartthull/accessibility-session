@@ -8,16 +8,16 @@ function BadNavigation() {
                 <h2 id="mainmenulabel" className="visuallyhidden">Main Menu</h2>
                 <ul role="menu">
                     <li role="none">
-                        <a href="#" role="menuitem">Navi 1</a>
+                        <a href="#" role="menuitem">Home</a>
                     </li>
                     <li role="none">
-                        <a href="#" role="menuitem">Navi 2</a>
+                        <a href="#" role="menuitem">About us</a>
                     </li>
                     <li role="none">
-                        <a href="#" role="menuitem">Navi 3</a>
+                        <a href="#" role="menuitem">Products</a>
                     </li>
                     <li role="none">
-                        <a href="#" role="menuitem">Navi 4</a>
+                        <a href="#" role="menuitem">Contact us</a>
                     </li>
                 </ul>
             </nav>

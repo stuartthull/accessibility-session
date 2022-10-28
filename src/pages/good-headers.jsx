@@ -3,7 +3,7 @@ import React from 'react';
 function GoodHeaders() {
     return (
         <>
-            <h1 aria-hidden="true">Good headers</h1>
+            <h1>Good headers</h1>
             <h2>This is about the 718 Cayman</h2>
             <p>Porsche has always been careful not to let its 718 Cayman get too potent and potentially tread on the toes of the iconic 911. But as that car moves steadily upmarket and gets more expensive the Cayman’s leash has been progressively loosened, with faster, more aggressive models like the GTS 4.0, the GT4 and – at last – this new GT4 RS.</p>
             <h2>This is about the twilight years of the Porsche engine</h2>

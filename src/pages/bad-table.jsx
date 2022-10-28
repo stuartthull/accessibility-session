@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 function BadTable() {
     return (
         <Fragment>
-            <h1 aria-hidden="true">Good Table</h1>
+            <h1 aria-hidden="true">Bad Table</h1>
 
             <table border="1" cellPadding="8">
                 <tr>

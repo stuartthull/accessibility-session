@@ -4,7 +4,6 @@ function BadNavigation() {
     return (
         <Fragment>
             <h1 aria-hidden="true">Bad Navigation</h1>
-            //@eslint
             <p><a href="#">Home</a></p>
 
             <p><a href="#">About us</a></p>

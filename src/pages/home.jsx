@@ -9,8 +9,13 @@ function Home() {
                 <Link to="/">Home</Link>
             </li>
             <li>
+                <Link to="/adaptable">Adaptable Content</Link>
+            </li>
+
+            <li>
                 <Link to="/bad-headers">Bad Headers</Link>
             </li>
+
             <li>
                 <Link to="/good-headers">Good Headers</Link>
             </li>
@@ -37,6 +42,12 @@ function Home() {
             </li>
             <li>
                 <Link to="/good-describeby">Good DescribeBy</Link>
+            </li>
+            <li>
+                <Link to="/bad-table">Bad Table</Link>
+            </li>
+            <li>
+                <Link to="/good-table">Good Table</Link>
             </li>
 
             <li>

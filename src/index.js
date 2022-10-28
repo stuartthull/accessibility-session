@@ -14,6 +14,9 @@ import BadList from "./pages/bad-list";
 import BadDescribe from "./pages/bad-describedby";
 import GoodDescribe from "./pages/good-describedby";
 import NewWindow from "./pages/new-window";
+import Adaptable from "./pages/adaptable-content";
+import GoodTable from "./pages/good-table";
+import BadTable from "./pages/bad-table";
 
 export default function App() {
     return (
@@ -21,17 +24,19 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path="blog" element={<Blog />} />
+                    <Route path="adaptable" element={<Adaptable />} />
                     <Route path="bad-headers" element={<BadHeaders />} />
                     <Route path="good-headers" element={<GoodHeaders />} />
                     <Route path="bad-navigation" element={<BadNavigation />} />
                     <Route path="good-navigation" element={<GoodNavigation />} />
                     <Route path="bad-form" element={<BadForm />} />
                     <Route path="good-form" element={<GoodForm />} />
-                    <Route path="good-list" element={<GoodList />} />
                     <Route path="bad-list" element={<BadList />} />
+                    <Route path="good-list" element={<GoodList />} />
                     <Route path="bad-describeby" element={<BadDescribe />} />
                     <Route path="good-describeby" element={<GoodDescribe />} />
+                    <Route path="bad-table" element={<BadTable />} />
+                    <Route path="good-table" element={<GoodTable />} />
                     <Route path="new-window" element={<NewWindow />} />
                 </Route>
             </Routes>

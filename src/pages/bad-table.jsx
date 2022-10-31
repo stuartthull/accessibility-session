@@ -3,6 +3,9 @@ import React, { Fragment } from 'react';
 function BadTable() {
     return (
         <Fragment>
+            <div className={'banner'} aria-hidden={'true'}>
+                <p>Use arrow keys to move between cells, what do you notice?</p>
+            </div>
             <h1 aria-hidden="true">Bad Table</h1>
 
             <table border="1" cellPadding="8">

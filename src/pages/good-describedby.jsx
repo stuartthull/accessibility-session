@@ -12,9 +12,7 @@ function GoodDescribe() {
                 </span>
             </div>
             <div>
-                <button aria-label="Close" aria-describedby="descriptionClose"
-                        onClick="myDialog.close()">X
-                </button>
+                <button aria-label="Close" aria-describedby="descriptionClose">X</button>
 
                 <div id="descriptionClose">Closing this window will discard any information entered and
                     return you back to the main page

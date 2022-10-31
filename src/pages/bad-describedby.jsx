@@ -3,6 +3,9 @@ import React, { Fragment } from 'react';
 function BadDescribe() {
     return (
         <Fragment>
+            <div className={'banner'} aria-hidden={'true'}>
+                <p>What do think is missing from the markup?</p>
+            </div>
             <h1 aria-hidden="true">Described by</h1>
 
             <div>

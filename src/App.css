@@ -50,3 +50,10 @@ table {
   white-space: nowrap;
   width: 1px;
 }
+
+.banner {
+  background-color: rgb(255, 252, 242);
+  border: 1px solid rgb(255, 196, 0);
+  border-radius: calc(4px);
+  padding: 0 16px;
+}

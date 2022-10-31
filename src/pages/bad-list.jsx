@@ -3,6 +3,9 @@ import React, { Fragment } from 'react';
 function BadList() {
     return (
         <Fragment>
+            <div className={'banner'} aria-hidden={'true'}>
+                <p>Why is this list information not useful?</p>
+            </div>
             <h1 aria-hidden="true">Poorly created lists</h1>
             <p>The most popular types of cheese are:</p>
             <p>Mozzarella <br />

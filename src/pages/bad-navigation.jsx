@@ -3,6 +3,9 @@ import React, { Fragment } from 'react';
 function BadNavigation() {
     return (
         <Fragment>
+            <div className={'banner'} aria-hidden={'true'}>
+                <p>Why is this navigation not useful?</p>
+            </div>
             <h1 aria-hidden="true">Bad Navigation</h1>
             <p><a href="#">Home</a></p>
 

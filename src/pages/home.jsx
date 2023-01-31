@@ -8,13 +8,15 @@ function Home() {
             {/*<li style={{marginBottom:'16px'}}>*/}
             {/*    <Link to="/">Home</Link>*/}
             {/*</li>*/}
-            {/*<li>*/}
-            {/*    <Link to="/good-page">Good</Link>*/}
-            {/*</li>*/}
 
             <li>
                 <Link to="/bad-page">Accessibility Test Page</Link>
             </li>
+
+            <li>
+                <Link to="/good-page">Good</Link>
+            </li>
+
             {/*<li style={{marginBottom:'16px'}}>*/}
             {/*    <Link to="/adaptable">Adaptable Content</Link>*/}
             {/*</li>*/}

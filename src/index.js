@@ -17,6 +17,8 @@ import NewWindow from "./pages/new-window";
 import Adaptable from "./pages/adaptable-content";
 import GoodTable from "./pages/good-table";
 import BadTable from "./pages/bad-table";
+import GoodPage from "./pages/goodpage";
+import BadPage from "./pages/badpage";
 
 export default function App() {
     return (
@@ -25,6 +27,8 @@ export default function App() {
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path="adaptable" element={<Adaptable />} />
+                    <Route path="bad-page" element={<BadPage />} />
+                    <Route path="good-page" element={<GoodPage />} />
                     <Route path="bad-headers" element={<BadHeaders />} />
                     <Route path="good-headers" element={<GoodHeaders />} />
                     <Route path="bad-navigation" element={<BadNavigation />} />

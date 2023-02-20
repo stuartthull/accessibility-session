@@ -29,7 +29,7 @@ const BadPage = () => {
                         <div className="col-lg-12">
                             <div className="navbar navbar-expand-lg">
                                 <a className="navbar-brand" href="https://www.autotrader.co.uk">
-                                    <img src={Logo} alt="Our logo"/>
+                                    <img src={Logo} alt=" "/>
                                 </a>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarNine" aria-controls="navbarNine" aria-expanded="false"
@@ -81,7 +81,7 @@ const BadPage = () => {
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="header-image">
-                                <img src={HeroImage} alt=""/>
+                                <img src={HeroImage} alt=" "/>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const BadPage = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-12">
                             <div className="about-image-five">
-                                <img src={AboutImage1} alt="Laptop on a work desk"/>
+                                <img src={AboutImage1} alt=" "/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
@@ -152,7 +152,7 @@ const BadPage = () => {
                         <div className="col-lg-4 col-sm-6 branding-3 planning-3" data-filter="branding">
                             <div className="portfolio-style-three">
                                 <div className="portfolio-image">
-                                    <img src={Of1} alt="Jenny and Joan looking at their laptop"/>
+                                    <img src={Of1} alt=" "/>
 
                                 </div>
                                 <div className="portfolio-text">
@@ -170,7 +170,7 @@ const BadPage = () => {
                         <div className="col-lg-4 col-sm-6" data-filter="research">
                             <div className="portfolio-style-three">
                                 <div className="portfolio-image">
-                                    <img src={Of2} alt="Man and woman using a point of sale device"/>
+                                    <img src={Of2} alt=" "/>
 
                                 </div>
                                 <div className="portfolio-text">
@@ -188,7 +188,7 @@ const BadPage = () => {
                         <div className="col-lg-4 col-sm-6" data-filter="marketing">
                             <div className="portfolio-style-three">
                                 <div className="portfolio-image">
-                                    <img src={Of3} alt="One of our app developers using a laptop"/>
+                                    <img src={Of3} alt=" "/>
 
                                 </div>
                                 <div className="portfolio-text">
@@ -300,7 +300,7 @@ const BadPage = () => {
                                         <td>32</td>
                                     </tr>
                                     <tr>
-                                        <th>2010 Cadillac Escalade</th>
+                                        <td>2010 Cadillac Escalade</td>
                                         <td>6.7</td>
                                         <td>12</td>
                                     </tr>

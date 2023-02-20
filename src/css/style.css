@@ -355,8 +355,12 @@ p{
         padding:10px 0
     }
 }
-.navbar-area.navbar-nine .navbar-brand{
-    margin:0
+.navbar-area.navbar-nine .navbar-brand {
+    margin:0;
+}
+
+.navbar-area.navbar-nine .navbar-brand svg {
+    fill: white;
 }
 .navbar-area.navbar-nine .navbar{
     position:relative;

@@ -861,8 +861,7 @@ p{
 }
 .header-eight .header-content .h1{
     font-weight:700;
-    color:var(--white);
-    text-shadow:0 3px 8px #00000017;
+    color:#d59515;
     text-transform:capitalize
 }
 @media only screen and (min-width:768px) and (max-width:991px){
@@ -1740,7 +1739,7 @@ p{
 .call-action .inner-content h2{
     font-weight:700;
     margin-bottom:30px;
-    color:var(--white)
+    color:#d59515;
 }
 .call-action .inner-content p{
     color:var(--white)

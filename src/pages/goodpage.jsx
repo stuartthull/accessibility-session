@@ -296,9 +296,9 @@ const GoodPage = () => {
                                 <table border="1" cellPadding="8" className='dark-table'>
                                     <thead>
                                     <tr>
-                                        <th>SUV</th>
-                                        <th>0-60 MPH Time (Seconds)</th>
-                                        <th>Fuel Efficiency (MPG)</th>
+                                        <th scope="col">SUV</th>
+                                        <th scope="col">0-60 MPH Time (Seconds)</th>
+                                        <th scope="col">Fuel Efficiency (MPG)</th>
                                     </tr>
                                     </thead>
                                     <tbody>
